@@ -15,10 +15,6 @@ export default function ManagePage() {
     return window.location.href = '/not-found';
   }
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    await new Promise(resolve => setTimeout(resolve, 1000));
-  }
   async function handleSignout(e: React.MouseEvent<HTMLAnchorElement>) {
     e.preventDefault();
     await new Promise(resolve => setTimeout(resolve, 1000));

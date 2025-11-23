@@ -17,10 +17,10 @@ export default function ChangeTestCentrePage() {
     return null
   }
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    await new Promise(resolve => setTimeout(resolve, 1000));
-  }
+  // async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  //   e.preventDefault();
+  //   await new Promise(resolve => setTimeout(resolve, 1000));
+  // }
 
   const cancelled = booking.status.toLocaleLowerCase() === "cancelled";
   const closeDate = booking.isDateClose;
