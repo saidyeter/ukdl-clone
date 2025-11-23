@@ -1,16 +1,19 @@
-import { useNavigate } from "react-router";
-import "../assets/login.css";
-import testCenters from "../assets/test-centres.json";
-import testdata from "../assets/test-data.json";
-import { useLicenceStore } from "../lib/license-store";
+import testCenters from '@/assets/test-centres.json';
+import testdata from '@/assets/test-data.json';
+import { useLicenceStore } from '@/lib/license-store';
+import { createFileRoute, useNavigate } from '@tanstack/react-router';
 
-export default function ChangeTestCentrePage() {
+export const Route = createFileRoute('/change-test-centre')({
+  component: RouteComponent,
+})
+
+function RouteComponent() {
   const navigate = useNavigate();
   const {
     licenceNumber, theoryTestPassNumber, referenceNumber,
     // setLicenceNumber, setTheoryTestPassNumber, setReferenceNumber,
   } = useLicenceStore();
-  console.log(licenceNumber, theoryTestPassNumber, referenceNumber);
+  // console.log(licenceNumber, theoryTestPassNumber, referenceNumber);
   const booking = testdata.find(a => a.driverLicenceNumber === licenceNumber);
   const testCentre = testCenters.find(a => a.zipcode === booking?.testCentre);
   if (!licenceNumber || !booking || !testCentre) {
@@ -28,7 +31,7 @@ export default function ChangeTestCentrePage() {
   const closeDate = booking.isDateClose;
 
   if (cancelled || closeDate) {
-    navigate('/manage');
+    navigate({ to: '/manage' });
   }
 
   return (

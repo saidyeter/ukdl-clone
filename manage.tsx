@@ -1,10 +1,13 @@
-import { useNavigate } from "react-router";
-import "../assets/login.css";
-import testCenters from "../assets/test-centres.json";
-import testdata from "../assets/test-data.json";
-import { useLicenceStore } from "../lib/license-store";
+import testCenters from '@/assets/test-centres.json';
+import testData from '@/assets/test-data.json';
+import { useLicenceStore } from '@/lib/license-store';
+import { createFileRoute, useNavigate } from '@tanstack/react-router';
 
-export default function ManagePage() {
+export const Route = createFileRoute('/manage')({
+  component: RouteComponent,
+})
+
+function RouteComponent() {
   const navigate = useNavigate();
 
   const {
@@ -12,17 +15,18 @@ export default function ManagePage() {
     // setLicenceNumber, setTheoryTestPassNumber, setReferenceNumber,
   } = useLicenceStore();
   // console.log(licenceNumber, theoryTestPassNumber, referenceNumber);
-  const booking = testdata.find(a => a.driverLicenceNumber === licenceNumber);
+  const booking = testData.find(a => a.driverLicenceNumber === licenceNumber);
   const testCentre = testCenters.find(a => a.zipcode === booking?.testCentre);
   if (!licenceNumber || !booking || !testCentre) {
-    return navigate('/not-found');
-
+    navigate({ to: '/not-found' });
+    return
   }
 
   async function handleSignout(e: React.MouseEvent<HTMLAnchorElement>) {
     e.preventDefault();
     await new Promise(resolve => setTimeout(resolve, 1000));
-    return navigate('/login');
+    navigate({ to: '/' });
+    return
   }
 
   const cancelled = booking.status.toLocaleLowerCase() === "cancelled";

@@ -1,7 +1,10 @@
-import "../assets/standby.css";
+import { createFileRoute } from '@tanstack/react-router'
 
-export default function LoginPage() {
+export const Route = createFileRoute('/standby')({
+  component: RouteComponent,
+})
 
+function RouteComponent() {
   return (
     <div id="standby">
       <span style={{ fontSize: 64, fontWeight: 600 }}>Please stand by</span>
