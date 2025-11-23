@@ -1,25 +1,29 @@
+import { useNavigate } from "react-router";
 import "../assets/login.css";
 import testCenters from "../assets/test-centres.json";
 import testdata from "../assets/test-data.json";
 import { useLicenceStore } from "../lib/license-store";
 
 export default function ManagePage() {
+  const navigate = useNavigate();
+
   const {
     licenceNumber, theoryTestPassNumber, referenceNumber,
     // setLicenceNumber, setTheoryTestPassNumber, setReferenceNumber,
   } = useLicenceStore();
-  console.log(licenceNumber, theoryTestPassNumber, referenceNumber);
+  // console.log(licenceNumber, theoryTestPassNumber, referenceNumber);
   const booking = testdata.find(a => a.driverLicenceNumber === licenceNumber);
   const testCentre = testCenters.find(a => a.zipcode === booking?.testCentre);
   if (!licenceNumber || !booking || !testCentre) {
-    return window.location.href = '/not-found';
+    navigate('/not-found');
+    return
   }
 
   async function handleSignout(e: React.MouseEvent<HTMLAnchorElement>) {
     e.preventDefault();
     await new Promise(resolve => setTimeout(resolve, 1000));
-
-    window.location.href = '/login';
+    navigate('/login');
+    return
   }
 
   const cancelled = booking.status.toLocaleLowerCase() === "cancelled";

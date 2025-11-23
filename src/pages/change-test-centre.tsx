@@ -1,9 +1,11 @@
+import { useNavigate } from "react-router";
 import "../assets/login.css";
 import testCenters from "../assets/test-centres.json";
 import testdata from "../assets/test-data.json";
 import { useLicenceStore } from "../lib/license-store";
 
 export default function ChangeTestCentrePage() {
+  const navigate = useNavigate();
   const {
     licenceNumber, theoryTestPassNumber, referenceNumber,
     // setLicenceNumber, setTheoryTestPassNumber, setReferenceNumber,
@@ -26,7 +28,7 @@ export default function ChangeTestCentrePage() {
   const closeDate = booking.isDateClose;
 
   if (cancelled || closeDate) {
-    return window.location.href = '/manage';
+    navigate('/manage');
   }
 
   return (

@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 import "../assets/login.css";
 import { useLicenceStore } from "../lib/license-store";
 
 export default function LoginPage() {
+  let navigate = useNavigate();
   const [licenceNumber, setLicenceNumberLocally] = useState<string>('');
   const [theoryTestPassNumber, setTheoryTestPassNumberLocally] = useState<string>('');
   const [referenceNumber, setReferenceNumberLocally] = useState<string>('');
@@ -20,8 +22,7 @@ export default function LoginPage() {
     setLicenceNumber(licenceNumber);
     setTheoryTestPassNumber(theoryTestPassNumber);
     setReferenceNumber(referenceNumber);
-    window.location.href = '/manage';
-
+    navigate('/manage');
   }
 
   return (
