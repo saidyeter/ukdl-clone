@@ -15,15 +15,14 @@ export default function ManagePage() {
   const booking = testdata.find(a => a.driverLicenceNumber === licenceNumber);
   const testCentre = testCenters.find(a => a.zipcode === booking?.testCentre);
   if (!licenceNumber || !booking || !testCentre) {
-    navigate('/not-found');
-    return
+    return navigate('/not-found');
+
   }
 
   async function handleSignout(e: React.MouseEvent<HTMLAnchorElement>) {
     e.preventDefault();
     await new Promise(resolve => setTimeout(resolve, 1000));
-    navigate('/login');
-    return
+    return navigate('/login');
   }
 
   const cancelled = booking.status.toLocaleLowerCase() === "cancelled";
