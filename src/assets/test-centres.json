@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Cardiff (Llanishen)",
+    "address": "Cardiff Business Park",
+    "province": "Cardiff",
+    "zipcode": "CF14 5GF",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.522694086%2C-3.1914316979999997&ll=51.522694086%2C-3.1914316979999997",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.522694086&mlon=-3.1914316979999997&zoom=16",
+    "description": "Tests provided: car, ADI part 2, ADI part 3. Wheelchair access not available."
+  },
+  {
+    "name": "Llantrisant",
+    "address": "School Road, Miskin",
+    "province": "Llantrisant",
+    "zipcode": "CF72 8YR",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.5241849%2C-3.3650642&ll=51.5241849%2C-3.3650642",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.5241849&mlon=-3.3650642&zoom=16",
+    "description": "Tests provided: car, lorry and bus, ADI part 2, ADI part 3. Wheelchair accessible."
+  },
+  {
+    "name": "Barry",
+    "address": "Unit 16, Business Support Centre, Hood Road, Innovation Quarter, The Waterfront",
+    "province": "Barry",
+    "zipcode": "CF62 5QN",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.399697099999955%2C-3.279095185000002&ll=51.399697099999955%2C-3.279095185000002",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.399697099999955&mlon=-3.279095185000002&zoom=16",
+    "description": "Tests provided: car, ADI part 3."
+  },
+  {
+    "name": "Newport (Gwent) LGV",
+    "address": "Newport Transport Ltd, 160 Corporation Road",
+    "province": "Newport",
+    "zipcode": "NP19 0WF",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.5866568%2C-2.98389485&ll=51.5866568%2C-2.98389485",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.5866568&mlon=-2.98389485&zoom=16",
+    "description": "Tests provided: lorry and bus."
+  },
+  {
+    "name": "Newport (Gwent)",
+    "address": "Stephenson Street, off Corporation Rd, Liswerry",
+    "province": "Newport",
+    "zipcode": "NP19 4XH",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.57043905999999%2C-2.9724263399999997&ll=51.57043905999999%2C-2.9724263399999997",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.57043905999999&mlon=-2.9724263399999997&zoom=16",
+    "description": "Tests provided: car, motorcycle module 1 (off-road), motorcycle module 2 (on-road), ADI part 3."
+  },
+  {
+    "name": "Merthyr Tydfil",
+    "address": "Merthyr Industrial Park, Pentrebach",
+    "province": "Merthyr Tydfil",
+    "zipcode": "CF48 4DR",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.72011089508196%2C-3.3556020770491806&ll=51.72011089508196%2C-3.3556020770491806",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.72011089508196&mlon=-3.3556020770491806&zoom=16",
+    "description": "Tests provided: car, motorcycle module 2 (on-road), ADI part 3."
+  },
+  {
+    "name": "Bridgend",
+    "address": "Crown Building, Angel Street",
+    "province": "Bridgend",
+    "zipcode": "CF31 4AD",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.504954700000006%2C-3.579430825&ll=51.504954700000006%2C-3.579430825",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.504954700000006&mlon=-3.579430825&zoom=16",
+    "description": "Tests provided: car, motorcycle module 2 (on-road), ADI part 2, ADI part 3. DVSA can make arrangements for disabilities."
+  },
+  {
+    "name": "Weston-super-Mare",
+    "address": "Plot 11, Sunnyside Road, North Industrial Estate",
+    "province": "Weston Super Mare",
+    "zipcode": "BS23 3PZ",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.341668935937506%2C-2.9724071531250007&ll=51.341668935937506%2C-2.9724071531250007",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.341668935937506&mlon=-2.9724071531250007&zoom=16",
+    "description": "Tests provided: car, ADI part 2, ADI part 3. DVSA can make arrangements for disabilities."
+  },
+  {
+    "name": "Abergavenny",
+    "address": "Station Road",
+    "province": "Abergavenny",
+    "zipcode": "NP7 5HT",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.815977%2C-3.0106042&ll=51.815977%2C-3.0106042",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.815977&mlon=-3.0106042&zoom=16",
+    "description": "Tests provided: car, ADI part 3."
+  },
+  {
+    "name": "Bristol (Avonmouth)",
+    "address": "Unit M6, Cabot Park, Merebank Road",
+    "province": "Avonmouth",
+    "zipcode": "BS11 8AQ",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:51.51661361052632%2C-2.683304542105263&ll=51.51661361052632%2C-2.683304542105263",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=51.51661361052632&mlon=-2.683304542105263&zoom=16",
+    "description": "Tests provided: car, ADI part 3."
+  },
+  {
+    "name": "Huddersfield",
+    "address": "Board Room 1 and Board Room 2, Chestnut Centre, 2A Chestnut Street",
+    "province": "Huddersfield",
+    "zipcode": "HD2 1HJ",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.66837044411769,-1.7678339235294127&ll=53.66837044411769,-1.7678339235294127",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.66837044411769&mlon=-1.7678339235294127&zoom=16",
+    "description": "Tests: car, ADI part 2, ADI part 3. DVSA will make arrangements for disabilities."
+  },
+  {
+    "name": "Halifax",
+    "address": "11 Cross Street West, Pellon",
+    "province": "Halifax",
+    "zipcode": "HX2 0HA",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.729858433333334,-1.8914389333333332&ll=53.729858433333334,-1.8914389333333332",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.729858433333334&mlon=-1.8914389333333332&zoom=16",
+    "description": "Tests: car, motorcycle module 2 (on-road), ADI part 3. Wheelchair accessible."
+  },
+  {
+    "name": "Heckmondwike",
+    "address": "Tower Buildings, High Street",
+    "province": "Heckmondwike",
+    "zipcode": "WF16 0AS",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.707418866666664,-1.6713194333333332&ll=53.707418866666664,-1.6713194333333332",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.707418866666664&mlon=-1.6713194333333332&zoom=16",
+    "description": "Tests: car, ADI part 3. Wheelchair accessible."
+  },
+  {
+    "name": "Wakefield",
+    "address": "Mothers Way, Silkwood Park",
+    "province": "Ossett",
+    "zipcode": "WF5 9TR",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.68348626666668,-1.5461447999999998&ll=53.68348626666668,-1.5461447999999998",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.68348626666668&mlon=-1.5461447999999998&zoom=16",
+    "description": "Tests: car, motorcycle module 1 (off-road), motorcycle module 2 (on-road), ADI part 3. Wheelchair accessible."
+  },
+  {
+    "name": "Bradford (Heaton)",
+    "address": "15 Farfield Street, Heaton",
+    "province": "Bradford",
+    "zipcode": "BD9 5AS",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.808919325,-1.7837540625&ll=53.808919325,-1.7837540625",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.808919325&mlon=-1.7837540625&zoom=16",
+    "description": "Tests: car, ADI part 3. DVSA will make arrangements for disabilities."
+  },
+  {
+    "name": "Bradford (Thornbury)",
+    "address": "The Courtyard, Midpoint, Thornbury",
+    "province": "Bradford",
+    "zipcode": "BD3 7AY",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.79892243571427,-1.7038562999999995&ll=53.79892243571427,-1.7038562999999995",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.79892243571427&mlon=-1.7038562999999995&zoom=16",
+    "description": "Tests: car, motorcycle module 2 (on-road), ADI part 3."
+  },
+  {
+    "name": "Rochdale (Manchester)",
+    "address": "Room G10, Globe House Business, Moss Bridge Road",
+    "province": "Rochdale",
+    "zipcode": "OL16 5EB",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.60947297903221,-2.138784332258064&ll=53.60947297903221,-2.138784332258064",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.60947297903221&mlon=-2.138784332258064&zoom=16",
+    "description": "Tests: car."
+  },
+  {
+    "name": "Barnsley",
+    "address": "West Road",
+    "province": "Barnsley",
+    "zipcode": "S75 2DH",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.554529485714276,-1.5023922642857142&ll=53.554529485714276,-1.5023922642857142",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.554529485714276&mlon=-1.5023922642857142&zoom=16",
+    "description": "Tests: car, ADI part 2, ADI part 3. Wheelchair accessible."
+  },
+  {
+    "name": "Horsforth",
+    "address": "Room 013 Woodside House, 261 Low Lane, Horsforth",
+    "province": "Leeds",
+    "zipcode": "LS18 5NY",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.83996210714285,-1.6217659499999992&ll=53.83996210714285,-1.6217659499999992",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.83996210714285&mlon=-1.6217659499999992&zoom=16",
+    "description": "Tests: car, motorcycle module 2 (on-road), ADI part 2, ADI part 3. Wheelchair accessible."
+  },
+  {
+    "name": "Chadderton",
+    "address": "9 Broadgate, Broadway Business Park, Chadderton",
+    "province": "Oldham",
+    "zipcode": "OL9 9XA",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.53231510370375,-2.169203513580248&ll=53.53231510370375,-2.169203513580248",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.53231510370375&mlon=-2.169203513580248&zoom=16",
+    "description": "Tests: car, ADI part 3."
+  },
+  {
+    "name": "Bala",
+    "address": "Unit 4, Penllyn Workshops",
+    "province": "Bala",
+    "zipcode": "LL23 7SP",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:52.90890517441861,-3.600095332558139&ll=52.90890517441861,-3.600095332558139",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=52.90890517441861&mlon=-3.600095332558139&zoom=16",
+    "description": "Tests: car. Wheelchair accessible."
+  },
+  {
+    "name": "Oswestry",
+    "address": "Mile Oak Industrial Estate, Maesbury Road",
+    "province": "Oswestry",
+    "zipcode": "SY10 8GA",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:52.84498601666668,-3.0422054981481472&ll=52.84498601666668,-3.0422054981481472",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=52.84498601666668&mlon=-3.0422054981481472&zoom=16",
+    "description": "Tests: car, ADI part 3."
+  },
+  {
+    "name": "Newtown",
+    "address": "Ladywell House",
+    "province": "Newtown",
+    "zipcode": "SY16 1JB",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:52.5132116148936,-3.31593308723404&ll=52.5132116148936,-3.31593308723404",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=52.5132116148936&mlon=-3.31593308723404&zoom=16",
+    "description": "Tests: car, ADI part 3."
+  },
+  {
+    "name": "Wrexham",
+    "address": "Ground Floor, 1 Birchall House, Wrexham Technology Park",
+    "province": "Wrexham",
+    "zipcode": "LL13 7YP",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.04843760961536,-3.013843596153847&ll=53.04843760961536,-3.013843596153847",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.04843760961536&mlon=-3.013843596153847&zoom=16",
+    "description": "Tests: car, ADI part 3."
+  },
+  {
+    "name": "Bangor",
+    "address": "Llandegai Industrial Estate, Llandygai",
+    "province": "Bangor",
+    "zipcode": "LL57 4YH",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.218357952307684,-4.110814313846152&ll=53.218357952307684,-4.110814313846152",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.218357952307684&mlon=-4.110814313846152&zoom=16",
+    "description": "Tests: car, motorcycle module 1 (off-road), motorcycle module 2 (on-road), ADI part 3."
+  },
+  {
+    "name": "Wrexham LGV",
+    "address": "Llay Road, Llay",
+    "province": "Wrexham",
+    "zipcode": "LL12 0TL",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.097322261904765,-3.008822780952381&ll=53.097322261904765,-3.008822780952381",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.097322261904765&mlon=-3.008822780952381&zoom=16",
+    "description": "Tests: motorcycle module 1 (off-road), motorcycle module 2 (on-road), lorry and bus."
+  },
+  {
+    "name": "Rhyl",
+    "address": "Victoria Road",
+    "province": "Rhyl",
+    "zipcode": "LL18 2EL",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:53.314823960000005,-3.485539839999999&ll=53.314823960000005,-3.485539839999999",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=53.314823960000005&mlon=-3.485539839999999&zoom=16",
+    "description": "Tests: car, motorcycle module 2 (on-road), ADI part 2, ADI part 3. Wheelchair accessible."
+  },
+  {
+    "name": "Pwllheli",
+    "address": "33A Cardiff Road",
+    "province": "Pwllheli",
+    "zipcode": "LL53 5NT",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:52.880743869565215,-4.423329939130435&ll=52.880743869565215,-4.423329939130435",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=52.880743869565215&mlon=-4.423329939130435&zoom=16",
+    "description": "Tests: car, ADI part 3. Not wheelchair accessible."
+  },
+  {
+    "name": "Aberystwyth (Park Avenue)",
+    "address": "Aberystwyth Football Club, Park Avenue",
+    "province": "Aberystwyth",
+    "zipcode": "SY23 1PG",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:52.41031303269232,-4.080996351923077&ll=52.41031303269232,-4.080996351923077",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=52.41031303269232&mlon=-4.080996351923077&zoom=16",
+    "description": "Tests: car, ADI part 3."
+  },
+  {
+    "name": "Shrewsbury",
+    "address": "Stafford Drive, Battlefield Enterprise Park",
+    "province": "Shrewsbury",
+    "zipcode": "SY1 3BF",
+    "google_maps_link": "https://maps.google.com/maps?z=16&ie=UTF8&q=loc:52.74622847857143,-2.7363808214285714&ll=52.74622847857143,-2.7363808214285714",
+    "openstreetmap_link": "http://www.openstreetmap.org/index.html?mlat=52.74622847857143&mlon=-2.7363808214285714&zoom=16",
+    "description": "Tests: car, motorcycle module 1 (off-road), motorcycle module 2 (on-road), ADI part 2, ADI part 3."
+  }
+]
