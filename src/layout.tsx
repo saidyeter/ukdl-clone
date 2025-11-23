@@ -1,25 +1,6 @@
 import { useEffect, useState } from 'react';
-import './App.css';
-import ChangeTestCentrePage from './pages/change-test-centre';
-import Login from './pages/login';
-import Manage from './pages/manage';
-import NotFound from './pages/not-found';
+import { Outlet } from 'react-router';
 import Standby from './pages/standby';
-
-const pages = {
-  '/login': <Login />,
-  '/manage': <Manage />,
-  '/not-found': <NotFound />,
-  '/change-test-centre': <ChangeTestCentrePage />,
-} as any
-
-function getPage() {
-  const path = window.location.pathname;
-  if (path === '/') {
-    window.location.href = '/login';
-  }
-  return pages[path] ?? pages['/login'];
-}
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -68,7 +49,8 @@ function App() {
           </div>
         </div>
       </header>
-      {getPage()}
+
+      <Outlet />
 
       <footer className="group js-footer govuk-footer" id="footer" role="contentinfo">
         <div className="footer-wrapper govuk-width-container">
