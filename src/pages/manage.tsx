@@ -8,7 +8,7 @@ export default function ManagePage() {
   const navigate = useNavigate();
 
   const {
-    licenceNumber, theoryTestPassNumber, referenceNumber,
+    licenceNumber, //theoryTestPassNumber, referenceNumber,
     // setLicenceNumber, setTheoryTestPassNumber, setReferenceNumber,
   } = useLicenceStore();
   // console.log(licenceNumber, theoryTestPassNumber, referenceNumber);
