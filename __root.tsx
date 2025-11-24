@@ -1,10 +1,6 @@
-import css1 from '@/assets/govuk-frontend-5.11.0.min.css?url'
-import css2 from '@/assets/jquery-ui-custom.css?url'
-import logo from '@/assets/logo.svg'
-import css3 from '@/assets/screen.css?url'
 import Header from '@/components/Header'
 import Footer from '@/components/footer'
-import appCss from '@/styles.css?url'
+import logo from 'logo.svg'
 
 import { TanStackDevtools } from '@tanstack/react-devtools'
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
@@ -25,11 +21,11 @@ export const Route = createRootRoute({
       },
     ],
     links: [
-      { rel: 'stylesheet', href: appCss, type: 'text/css' },
-      { rel: 'stylesheet', href: css1, type: 'text/css' },
-      { rel: 'stylesheet', href: css2, type: 'text/css' },
-      { rel: 'stylesheet', href: css3, type: 'text/css' },
-      { rel: 'icon', sizes: '48x48', href: logo },
+      // { rel: 'stylesheet', href: appCss, type: 'text/css' },
+      // { rel: 'stylesheet', href: 'govuk-frontend-5.11.0.min.css', type: 'text/css' },
+      // { rel: 'stylesheet', href: 'jquery-ui-custom.css', type: 'text/css' },
+      // { rel: 'stylesheet', href: 'screen.css', type: 'text/css' },
+      // { rel: 'icon', sizes: '48x48', href: logo },
     ],
   }),
 
@@ -41,6 +37,19 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <link rel="icon" sizes="48x48" href={logo} />
+        <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta content="True" name="HandheldFriendly" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="robots" content="noindex,nofollow" />
+        <meta name="dcterms.isVersionOf" content="IBS-6.3.0.30" />
+        <link rel="icon" sizes="48x48" href="./src/assets/logo.svg" />
+        <link rel="stylesheet" href="./src/assets/govuk-frontend-5.11.0.min.css" />
+        <link rel="stylesheet" href="./src/assets/jquery-ui-custom.css" />
+        <link rel="stylesheet" href="./src/assets/screen.css" />
+
       </head>
       <body>
         <Header />
