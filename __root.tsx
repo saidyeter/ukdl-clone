@@ -1,10 +1,15 @@
-import Header from '@/components/Header'
-import Footer from '@/components/footer'
-import logo from 'logo.svg'
+import Header from '@/components/Header';
+import Footer from '@/components/footer';
+import logo from 'logo.svg';
+import "./src/assets/govuk-frontend-5.11.0.min.css";
+import "./src/assets/jquery-ui-custom.css";
+import "./src/assets/login.css";
+import "./src/assets/standby.css";
+import "./src/assets/styles.css";
 
-import { TanStackDevtools } from '@tanstack/react-devtools'
-import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
-import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
+import { TanStackDevtools } from '@tanstack/react-devtools';
+import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router';
+import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools';
 
 export const Route = createRootRoute({
   head: () => ({
@@ -46,9 +51,9 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <meta name="robots" content="noindex,nofollow" />
         <meta name="dcterms.isVersionOf" content="IBS-6.3.0.30" />
         <link rel="icon" sizes="48x48" href="./src/assets/logo.svg" />
-        <link rel="stylesheet" href="./src/assets/govuk-frontend-5.11.0.min.css" />
+        {/* <link rel="stylesheet" href="./src/assets/govuk-frontend-5.11.0.min.css" />
         <link rel="stylesheet" href="./src/assets/jquery-ui-custom.css" />
-        <link rel="stylesheet" href="./src/assets/screen.css" />
+        <link rel="stylesheet" href="./src/assets/screen.css" /> */}
 
       </head>
       <body>
