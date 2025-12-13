@@ -106,7 +106,8 @@ export default function RouteComponent() {
                     <h2>Test centre</h2>
 
                     {!closeDate ? (
-                      <a href="/change-test-centre" className="button">Change</a>
+                      <a href="/change-test-centre" id="test-centre-change" className="button">Change
+                        <span className="visuallyhidden">Test centre</span></a>
                     ) : null}
                   </header>
 
